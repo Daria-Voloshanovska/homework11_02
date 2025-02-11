@@ -19,9 +19,6 @@ public class Person {
         return email;
     }
 
-    public String getInfo() {
-        return getFullName() + ": " + getEmail();
-    }
 
     @Override
     public String toString() {
